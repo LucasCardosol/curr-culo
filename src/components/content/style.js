@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import livro from "../../assets/fotos/header2.png"
-import asi from "../../assets/fotos/asi.png"
+
 export const ContentStyle = styled.div`
     /*
     #000108
@@ -13,9 +12,8 @@ export const ContentStyle = styled.div`
 
 
     header{
-        height: 277.5px;
-        background: url(${livro});
-        background-size:cover ;
+        height: 240px;
+        border-bottom: 1px solid black;
         width: 100%;
     }
     .square{
@@ -25,7 +23,7 @@ export const ContentStyle = styled.div`
         background-color: black;
         transition: 0.7s;
         z-index: 10;
-        background: url(${asi});
+        
         background-size: cover;
         img{
             width: 100%;
